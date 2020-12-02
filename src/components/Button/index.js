@@ -1,5 +1,7 @@
 import React from 'react'
 
-function App() {
+function Button() {
     return <div>Hello world</div>
 }
+
+export default Button;
