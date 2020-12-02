@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "styleguidist build",
-    "start": "styleguidist server"
+    "start": "styleguidist server",
+    "prepublishOnly": "rm -fr ./dist & babel ./src --out-dir ./dist -s inline --extensions \".ts,.js\""
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",
@@ -16,10 +17,13 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.9.0"
   },
-  "name": "app",
-  "version": "1.0.0",
+  "name": "bsa-rc",
+  "version": "0.1.1",
   "description": "test",
-  "main": "index.js",
   "author": "dimanya <dimanya35@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ]
 }
