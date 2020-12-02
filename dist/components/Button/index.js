@@ -1,0 +1,8 @@
+import React from 'react';
+
+function Button() {
+  return /*#__PURE__*/React.createElement("div", null, "Hello world");
+}
+
+export default Button;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL0J1dHRvbi9pbmRleC5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIkJ1dHRvbiJdLCJtYXBwaW5ncyI6IkFBQUEsT0FBT0EsS0FBUCxNQUFrQixPQUFsQjs7QUFFQSxTQUFTQyxNQUFULEdBQWtCO0FBQ2Qsc0JBQU8sK0NBQVA7QUFDSDs7QUFFRCxlQUFlQSxNQUFmIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xuXG5mdW5jdGlvbiBCdXR0b24oKSB7XG4gICAgcmV0dXJuIDxkaXY+SGVsbG8gd29ybGQ8L2Rpdj5cbn1cblxuZXhwb3J0IGRlZmF1bHQgQnV0dG9uOyJdfQ==
